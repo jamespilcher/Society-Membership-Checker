@@ -47,7 +47,7 @@ for liar in listOfLiars:
             continue
 
     else: 
-        print("No matching second names...")
+        print("No members with matching second names...")
     time.sleep(.65)
     if matchingFirstNames:
         print("Members with matching first names: ")
@@ -58,7 +58,7 @@ for liar in listOfLiars:
         if nameFound == "y":
             continue
     else:
-        print("No matching first names...")
+        print("No members with matching first names...")
     print()
     print("LIAR FOUND")
     listOfActualLiars.append(liar)
