@@ -11,17 +11,17 @@ with open('event.csv', 'r') as f:
         if 'Non' not in row[12]:
             listOfMembersTicketHolders.append( (row[0] + " " + row[1]).title() )
 
+listOfSuspects = []
+
+for membersTicketHolder in listOfMembersTicketHolders[1:]:
+    if membersTicketHolder not in listOfMembers:
+        listOfSuspects.append(membersTicketHolder)
+
+
 listOfLiars = []
 
-for MembersTicketHolder in listOfMembersTicketHolders[1:]:
-    if MembersTicketHolder not in listOfMembers:
-        listOfLiars.append(MembersTicketHolder)
-
-
-listOfActualLiars = []
-
-for liar in listOfLiars:
-    liarFirstName, liarSecondName = liar.split(" ")
+for suspect in listOfSuspects:
+    liarFirstName, liarSecondName = suspect.split(" ")
 
     matchingFirstNames = []
     matchingSecondNames = []
@@ -35,7 +35,7 @@ for liar in listOfLiars:
     print()
     print("-----------------------------")
     print()
-    print("Current Suspected Liar: ", liar)
+    print("Current Suspected Liar: ", suspect)
     if matchingSecondNames:
         print("Members with matching second names: ")
 
@@ -61,11 +61,11 @@ for liar in listOfLiars:
         print("No members with matching first names...")
     print()
     print("LIAR FOUND")
-    listOfActualLiars.append(liar)
+    listOfLiars.append(suspect)
 print("--------------------")
 print()
 print("LIARS: ")
-for liar in listOfActualLiars:
+for liar in listOfLiars:
     print("- ", liar)
 print()
 input('Press ENTER to exit')
