@@ -1,6 +1,6 @@
-# Membership checker
+# Exeter Guild/FIXR Event Membership Cross-referencer
 
-Really simple command line application that cross references two csv files to find people that have bought members tickets, despite not being members!
+Really simple command line application that cross references two csv files to find people that have bought members tickets, despite not being members! An example event.csv and society.csv has been provided.
 
 To use:
 - Obtain the CSV of your members via the society dashboard on the exeter guild, and rename it 'society.csv'
