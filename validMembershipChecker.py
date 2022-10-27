@@ -1,11 +1,10 @@
 
 import csv
 import time
-from tkinter import N
 
-with open('computing-society.csv', 'r') as f:
+with open('society.csv', 'r') as f:
     listOfMembers = [row[1].title() for row in csv.reader(f)][1:]
-N
+
 with open('event.csv', 'r') as f:
     listOfMembersTicketHolders = []
     for row in csv.reader(f):
