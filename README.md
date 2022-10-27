@@ -16,7 +16,7 @@ How it works:
 
 People often use their nicknames on FIXR which means they don't always match their student names on the membership csv. Any name that doesn't immediately match will be called a 'suspected liar'.
 
-For each suspected liar, you'll be prompted with all members with surnames that match, and then all members with firstnames that match. Use your brain to see if they actually do own a ticket!
+For each suspected liar, you'll be prompted with all members with surnames that match, and then all members with firstnames that match. Use your brain to see if they actually do own a membership!
 
 If there are no firstname/surname matches, the application will automatically declare them as a liar. There's a slight issue with this:
 
