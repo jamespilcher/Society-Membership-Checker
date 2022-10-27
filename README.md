@@ -4,10 +4,13 @@ Really simple command line application that cross references two csv files to fi
 
 To use:
 - Obtain the CSV of your members via the society dashboard on the exeter guild, and rename it 'society.csv'
+
 ![SOCIETY PAGE](screenshots/society-page.png)
 - Obtain the csv of your FIXR Event attendees, and rename it 'event.csv'
+
 ![FIXR PAGE](screenshots/fixr-page.png)
-- Place both csvs in the same folder as this application
+
+- Place both CSVs in the same folder as this application
 
 How it works:
 
