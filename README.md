@@ -24,7 +24,7 @@ If there are no firstname/surname matches, the application will automatically de
 
 Things that could break this application:
 - CSV column positions changing on either the guild or FIXR
-- not using the keyword 'Non' for your non-members tickets
+- Not using the keyword 'Non' for your non-members tickets
 
 Things I could add:
 - The liar's fixr emails to be displayed in the output
