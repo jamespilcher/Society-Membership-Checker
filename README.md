@@ -6,7 +6,7 @@ To use:
 - Obtain the CSV of your members via the society dashboard on the exeter guild, and rename it 'society.csv'
 
 ![SOCIETY PAGE](screenshots/society-page.png)
-- Obtain the csv of your FIXR Event attendees, and rename it 'event.csv'
+- Obtain the CSV of your FIXR Event attendees, and rename it 'event.csv'
 
 ![FIXR PAGE](screenshots/fixr-page.png)
 
@@ -28,3 +28,5 @@ Things that could break this application:
 
 Things I could add:
 - The liar's fixr emails to be displayed in the output
+- Make it find the columns instead of using indexing
+- A name match score?
