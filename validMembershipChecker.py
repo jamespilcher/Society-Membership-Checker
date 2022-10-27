@@ -67,3 +67,5 @@ print()
 print("LIARS: ")
 for liar in listOfActualLiars:
     print("- ", liar)
+print()
+input('Press ENTER to exit')
